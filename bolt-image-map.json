@@ -1,0 +1,164 @@
+{
+  "home": {
+    "hero": {
+      "image": "[TO BE PROVIDED]",
+      "alt": "[TO BE PROVIDED]",
+      "reason": "No approved non-archive homepage hero image is available. AGENTS.md treats missing hero imagery as a blocker.",
+      "requiredImage": "High-resolution landscape image showing Genesis Roofing roof work, team, access equipment, or a completed roof. Must be suitable for a homepage hero."
+    },
+    "serviceCards": [
+      {
+        "service": "roof-repairs",
+        "title": "Roof Repairs",
+        "image": "images/services/roof-repairs/ridge-tile-replacement-01.webp",
+        "alt": "Ridge tile replacement work"
+      },
+      {
+        "service": "new-roofs",
+        "title": "New Roofs",
+        "image": "[TO BE PROVIDED]",
+        "alt": "[TO BE PROVIDED]",
+        "reason": "Current new-roofs candidates are either portrait, unclear as a general new roof service image, or too narrow in subject for a key service card.",
+        "requiredImage": "High-resolution landscape image of a completed new roof or re-roof that clearly represents the New Roofs service."
+      },
+      {
+        "service": "flat-roofing",
+        "title": "Flat Roofing",
+        "image": "[TO BE PROVIDED]",
+        "alt": "[TO BE PROVIDED]",
+        "reason": "Current flat-roofing images are too low-resolution for a key service card or hero position.",
+        "requiredImage": "High-resolution landscape image of a completed flat roof, preferably showing the finish, edges, and roof context clearly."
+      },
+      {
+        "service": "fascias-soffits-guttering",
+        "title": "Fascias, Soffits and Guttering",
+        "image": "images/services/fascias-soffits-guttering/genesis-guttering-added-to-side-of-building-1.webp",
+        "alt": "Guttering added to the side of a building"
+      },
+      {
+        "service": "chimney-repairs",
+        "title": "Chimney Repairs",
+        "image": "[TO BE PROVIDED]",
+        "alt": "[TO BE PROVIDED]",
+        "reason": "Current chimney image is clear but portrait-oriented and not strong enough for a key service card or hero position.",
+        "requiredImage": "High-resolution landscape image of chimney repair work, ideally showing the chimney stack, roof context, and completed repair clearly."
+      }
+    ],
+    "proofGallery": [
+      {
+        "image": "images/services/roof-repairs/roof-repair-01.webp",
+        "alt": "Roof repair work"
+      },
+      {
+        "image": "images/services/roof-repairs/repairing-tile-verge-02.webp",
+        "alt": "Tile verge repair work"
+      },
+      {
+        "image": "images/services/fascias-soffits-guttering/genesis-guttering-added-to-side-of-building-2.webp",
+        "alt": "Guttering added to the side of a building"
+      }
+    ]
+  },
+  "services": {
+    "roof-repairs": {
+      "hero": {
+        "image": "images/services/roof-repairs/ridge-tile-replacement-01.webp"
+      },
+      "card": {
+        "image": "images/services/roof-repairs/ridge-tile-replacement-01.webp"
+      },
+      "gallery": [
+        "images/services/roof-repairs/roof-repair-01.webp",
+        "images/services/roof-repairs/repairing-tile-verge-02.webp"
+      ],
+      "missingImagery": [
+        "High-resolution leak repair context image",
+        "High-resolution valley or flashing repair image",
+        "High-resolution before-and-after repair pair",
+        "High-resolution finished wide roof repair shot"
+      ]
+    },
+    "new-roofs": {
+      "hero": {
+        "image": "images/services/new-roofs/genesis-corrugated-roofing-after-2.webp",
+        "reason": "Current new-roofs images are not strong enough for hero use because the best candidates are portrait, narrow in subject, or unclear as a general new roof hero.",
+        "requiredImage": "High-resolution landscape image of a completed new roof or re-roof, suitable for a service page hero."
+      },
+      "card": {
+        "image": "images/services/new-roofs/genesis-corrugated-roofing-after-2.webp",
+        "reason": "No current new-roofs image is strong enough as a clear, general service card image.",
+        "requiredImage": "High-resolution image that clearly represents new roof or re-roof work at a glance."
+      },
+      "gallery": [
+        "images/services/new-roofs/genesis-corrugated-roofing-a.webp",
+        "images/services/new-roofs/genesis-corrugated-roofing-b.webp",
+        "images/services/new-roofs/genesis-corrugated-roofing-before-2.webp"
+      ],
+      "missingImagery": [
+        "High-resolution landscape finished new roof image",
+        "High-resolution completed pitched roof or re-roof image",
+        "Crew working safely on a new roof",
+        "Clear before-and-after new roof pair"
+      ]
+    },
+    "flat-roofing": {
+      "hero": {
+        "image": "[TO BE PROVIDED]",
+        "reason": "Current flat-roofing images are too low-resolution for hero use.",
+        "requiredImage": "High-resolution landscape image of a completed flat roof, suitable for a service page hero."
+      },
+      "card": {
+        "image": "[TO BE PROVIDED]",
+        "reason": "Current flat-roofing images are too low-resolution for a key service card.",
+        "requiredImage": "Clear high-resolution image of finished flat roofing work."
+      },
+      "gallery": [],
+      "missingImagery": [
+        "High-resolution finished flat roof image",
+        "High-resolution flat roof installation process image",
+        "High-resolution edge and drainage detail image",
+        "Clear before-and-after flat roofing pair"
+      ]
+    },
+    "fascias-soffits-guttering": {
+      "hero": {
+        "image": "images/services/fascias-soffits-guttering/genesis-guttering-added-to-side-of-building-1.webp"
+      },
+      "card": {
+        "image": "images/services/fascias-soffits-guttering/genesis-guttering-added-to-side-of-building-1.webp"
+      },
+      "gallery": [
+        "images/services/fascias-soffits-guttering/fascias-01.webp",
+        "images/services/fascias-soffits-guttering/fascias-02.webp",
+        "images/services/fascias-soffits-guttering/fascias-04.webp",
+        "images/services/fascias-soffits-guttering/genesis-guttering-added-to-side-of-building-2.webp"
+      ],
+      "missingImagery": [
+        "High-resolution soffit close-up",
+        "Clear before-and-after gutter replacement pair",
+        "High-resolution downpipe detail image"
+      ]
+    },
+    "chimney-repairs": {
+      "hero": {
+        "image": "[TO BE PROVIDED]",
+        "reason": "Current chimney image is portrait-oriented and not strong enough for hero use.",
+        "requiredImage": "High-resolution landscape image of chimney repair work with roof context, suitable for a service page hero."
+      },
+      "card": {
+        "image": "[TO BE PROVIDED]",
+        "reason": "Current chimney images are limited and not strong enough for a key service card.",
+        "requiredImage": "Clear high-resolution image of chimney repair work, preferably landscape or easily crop-safe."
+      },
+      "gallery": [
+        "images/services/chimney-repairs/genesis-chimney-work-after.webp"
+      ],
+      "missingImagery": [
+        "High-resolution chimney before image",
+        "High-resolution chimney flashing repair image",
+        "High-resolution repointing or pot work image",
+        "Landscape completed chimney repair image"
+      ]
+    }
+  }
+}
