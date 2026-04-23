@@ -1,21 +1,23 @@
 import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Phone, Menu, X } from 'lucide-react';
 
 const navLinks = [
-  { label: 'Home', href: '#' },
-  { label: 'About', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', to: '/' },
+  { label: 'About', to: '/about' },
+  { label: 'Services', to: '/services' },
+  { label: 'Gallery', to: '/gallery' },
+  { label: 'Contact', to: '/contact' },
 ];
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { pathname } = useLocation();
 
   return (
     <header className="header">
       <div className="header__inner container">
-        <a href="#" className="header__logo">
+        <Link to="/" className="header__logo">
           <span className="header__logo-icon">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
               <polygon points="16,3 29,14 25,14 25,27 7,27 7,14 3,14" fill="#1e3a5f" stroke="#c8a951" strokeWidth="1.5"/>
@@ -25,23 +27,23 @@ export default function Header() {
             <span className="header__logo-name">Genesis Roofing</span>
             <span className="header__logo-suffix">Ltd</span>
           </span>
-        </a>
+        </Link>
 
         <nav className={`header__nav ${menuOpen ? 'header__nav--open' : ''}`}>
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.label}
-              href={link.href}
-              className="header__nav-link"
+              to={link.to}
+              className={`header__nav-link${pathname === link.to ? ' header__nav-link--active' : ''}`}
               onClick={() => setMenuOpen(false)}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <div className="header__nav-ctas">
-            <a href="#contact" className="btn btn--primary btn--sm" onClick={() => setMenuOpen(false)}>
+            <Link to="/contact" className="btn btn--primary btn--sm" onClick={() => setMenuOpen(false)}>
               Request a Free Quote
-            </a>
+            </Link>
             <a href="tel:" className="btn btn--outline btn--sm" onClick={() => setMenuOpen(false)}>
               <Phone size={16} />
               Call [TO BE PROVIDED]
@@ -50,9 +52,9 @@ export default function Header() {
         </nav>
 
         <div className="header__actions">
-          <a href="#contact" className="btn btn--primary btn--sm header__cta-desktop">
+          <Link to="/contact" className="btn btn--primary btn--sm header__cta-desktop">
             Request a Free Quote
-          </a>
+          </Link>
           <a href="tel:" className="btn btn--outline btn--sm header__cta-desktop">
             <Phone size={16} />
             Call [TO BE PROVIDED]

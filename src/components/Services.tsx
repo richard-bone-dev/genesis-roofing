@@ -1,10 +1,11 @@
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { imageMap } from '../data/imageMap';
 import ImagePlaceholder from './ImagePlaceholder';
 
 function ServiceCard({ card }: { card: typeof imageMap.serviceCards[number] }) {
   return (
-    <article className="service-card">
+    <Link to={`/services/${card.service}`} className="service-card">
       <div className="service-card__image-wrap">
         {card.image ? (
           <img
@@ -23,7 +24,7 @@ function ServiceCard({ card }: { card: typeof imageMap.serviceCards[number] }) {
           Find out more <ArrowRight size={16} />
         </span>
       </div>
-    </article>
+    </Link>
   );
 }
 

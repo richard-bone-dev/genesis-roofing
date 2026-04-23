@@ -1,23 +1,26 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import ProofStrip from './components/ProofStrip';
-import TrustBlock from './components/TrustBlock';
-import CtaBand from './components/CtaBand';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ServicesPage from './pages/ServicesPage';
+import ServiceDetailPage from './pages/ServiceDetailPage';
+import GalleryPage from './pages/GalleryPage';
+import ContactPage from './pages/ContactPage';
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <Services />
-        <ProofStrip />
-        <TrustBlock />
-        <CtaBand />
-      </main>
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="services" element={<ServicesPage />} />
+          <Route path="services/:slug" element={<ServiceDetailPage />} />
+          <Route path="gallery" element={<GalleryPage />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="*" element={<HomePage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }

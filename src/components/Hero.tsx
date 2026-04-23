@@ -1,4 +1,5 @@
 import { Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { imageMap } from '../data/imageMap';
 import ImagePlaceholder from './ImagePlaceholder';
 
@@ -26,9 +27,9 @@ export default function Hero() {
           Professional roofing solutions for homeowners, landlords and property managers. From repairs to complete re-roofs, we deliver quality workmanship you can rely on.
         </p>
         <div className="hero__ctas">
-          <a href="#contact" className="btn btn--primary btn--lg">
+          <Link to="/contact" className="btn btn--primary btn--lg">
             Request a Free Quote
-          </a>
+          </Link>
           <a href="tel:" className="btn btn--white btn--lg">
             <Phone size={20} />
             Call [TO BE PROVIDED]
