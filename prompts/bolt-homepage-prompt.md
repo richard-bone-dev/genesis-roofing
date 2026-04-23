@@ -6,6 +6,40 @@ Use UK English. Keep the page concise, trustworthy and conversion-focused. The h
 
 Do not invent accreditations, guarantees, years of experience, awards, locations, reviews, response times or business history. Use `[TO BE PROVIDED]` wherever a business fact is missing.
 
+## UX And Visual Direction
+
+Use `https://erind-ontrack-market-2qhm.bolt.host/` as a UX and style reference only. Borrow the level of polish, clean spacing, soft cards, rounded media and consistent conversion layout, but do not copy its branding, copy, colour palette, industry styling, testimonials, statistics, claims or imagery choices.
+
+Keep the current homepage structure and widgets:
+- Hero
+- Core service cards
+- Proof/work preview
+- Trust section with placeholders only
+- Quote CTA band
+
+Do not redesign the page structure, change framework, make it a SPA, over-animate, or make the design playful or interior-design-led.
+
+Homepage design language:
+- Premium, trustworthy, practical and roofing/trade appropriate.
+- Light header with a slim strapline/top bar above the main header.
+- Dark footer consistent with the rest of the v1 site.
+- Manrope for headings, navigation and CTA labels.
+- Inter for body copy, form text and supporting text.
+- Softer neutral borders, subtle shadows and cleaner spacing.
+- Use a controlled, professional palette suitable for a roofing company.
+- Keep CTAs prominent, direct and easy to scan.
+
+Corner radius rules:
+- Buttons, inputs, selects and textareas: `rounded-xl`.
+- Service cards, trust widgets, proof cards and quote/contact widgets: `rounded-2xl`.
+- Hero image placeholder/media, large panels and CTA bands: `rounded-3xl`.
+
+Card and widget styling:
+- Service cards should have rounded images, soft borders, subtle shadows, tidy spacing and clear CTAs.
+- Proof/work preview items should use approved service images only and feel polished without inventing project detail.
+- Trust widgets must stay factual and placeholder-led where proof is missing.
+- Avoid nested cards, harsh square boxes, heavy borders and decorative clutter.
+
 ## Homepage Scope
 
 Page: Home  

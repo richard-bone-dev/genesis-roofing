@@ -11,6 +11,37 @@ Use UK English. Keep the tone professional, reassuring, straight-talking and tru
 
 Do not invent accreditations, guarantees, years of experience, awards, locations, reviews, response times, insurance status, company registration details, or customer proof. If a business fact is missing, write `[TO BE PROVIDED]`.
 
+## UX And Visual Direction
+
+Use `https://erind-ontrack-market-2qhm.bolt.host/` as a UX and style reference only. Apply the same level of polish, spacing discipline and page-to-page consistency to Genesis Roofing Ltd, but do not copy its branding, copy, colour treatment, imagery choices, industry styling, icons, testimonials, statistics or claims.
+
+Keep the existing v1 structure, content priorities, widgets and page sections. Do not turn the site into a SPA, do not change the framework, and do not redesign the information architecture.
+
+Global design language:
+- Premium, trustworthy, practical and trade-appropriate.
+- Roofing-focused rather than general building, interior design or lifestyle-led.
+- Clean white or very light header, with a slim strapline/top bar above the main header.
+- Dark footer across all pages.
+- Strong visual consistency between Home, service pages, Gallery and Contact.
+- Manrope for headings and navigation labels.
+- Inter for body copy, form fields and supporting text.
+- Softer borders using low-contrast neutral lines.
+- Subtle shadows on cards, widgets, forms and media panels.
+- Cleaner spacing with generous section padding, consistent vertical rhythm and no cramped cards.
+
+Corner radius rules:
+- Buttons, inputs, selects and textareas: `rounded-xl`.
+- Cards, repeated widgets, quote/contact blocks and small proof panels: `rounded-2xl`.
+- Large panels, hero media, feature images, gallery media and major CTA bands: `rounded-3xl`.
+
+Component styling:
+- Make the UI less square and more polished without becoming playful.
+- Use solid, confident CTA buttons with clear hover states, but avoid heavy animation.
+- Keep form controls practical, spacious and easy to scan.
+- Service cards should feel refined and robust: rounded image, soft border, subtle shadow, clear heading, concise copy and visible CTA.
+- Avoid nested cards and decorative visual clutter.
+- Do not use fake review cards, ratings, badges, awards or trust logos.
+
 ## V1 Scope
 
 Build only these live v1 pages:
